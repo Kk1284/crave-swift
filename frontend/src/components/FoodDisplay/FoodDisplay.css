@@ -13,3 +13,9 @@
     gap: 30px;
     row-gap: 50px;
 }
+
+@media (min-width: 1440px) {
+    .food-display-list {
+        grid-template-columns: repeat(4, 1fr); /* Ensures exactly 4 items per row */
+    }
+}
